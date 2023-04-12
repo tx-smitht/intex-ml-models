@@ -2,7 +2,7 @@ import pickle
 import pandas as pd
 from sklearn import preprocessing
 from fastapi import FastAPI
-from fastapi.middleware.cors import CORSMiddleware
+from starlette.middleware.cors import CORSMiddleware as CORSMiddleware
 
 app = FastAPI()
 
